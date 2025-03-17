@@ -21,7 +21,6 @@ async function fetchMarsPhotos(earthDate) {
     }
 }
 
-// Function to display photos in the gallery
 function displayPhotos(photos) {
     const gallery = document.querySelector('#photo-gallery');
     gallery.innerHTML = '';  // Clear current photos
