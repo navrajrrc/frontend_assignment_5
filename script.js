@@ -23,7 +23,7 @@ async function fetchMarsPhotos(earthDate) {
 
 function displayPhotos(photos) {
     const gallery = document.querySelector('#photo-gallery');
-    gallery.innerHTML = '';  // Clear current photos
+    gallery.innerHTML = '';  
     
     if (photos.length === 0) {
         return;
