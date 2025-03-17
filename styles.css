@@ -35,6 +35,7 @@ button {
     cursor: pointer;
 }
 
+
 #photo-gallery {
     display: flex;
     justify-content: center;
