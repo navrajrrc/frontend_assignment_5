@@ -44,8 +44,7 @@ window.onload = () => {
         }
     });
 };
-
-// Add event listener to the 
+ 
 document.querySelector('#load-photos').addEventListener('click', () => {
     const selectedDate = document.querySelector('#earth-date').value;
     if (selectedDate) {
