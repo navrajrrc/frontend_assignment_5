@@ -37,7 +37,6 @@ function displayPhotos(photos) {
     });
 }
 
-// Display photos from a significant date when the page loads
 window.onload = () => {
     fetchMarsPhotos('2018-06-01').then(photos => {
         if (photos.length > 0) {
